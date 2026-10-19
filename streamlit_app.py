@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import streamlit as st
 import yfinance as yf
 
-AUTHOR = "Karan Garha"
+AUTHOR = "Jose A. Marchena"
 # Fixed color per company so a filter change never repaints the survivors.
 COMPANIES = {
     "AAPL": ("Apple", "#2a78d6"),
