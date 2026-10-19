@@ -33,7 +33,7 @@ def load_prices():
 
 st.markdown(
     f"""
-    <style>header[data-testid="stHeader"], [data-testid="stToolbar"] {display: none !important;}</style>
+    <style>header[data-testid="stHeader"], [data-testid="stToolbar"] {{display: none !important;}}</style>
     <div style="background:#002D72;padding:18px 24px;border-radius:8px;color:#fff;margin-bottom:12px">
       <div style="font-size:1.8rem;font-weight:700">Big Tech &amp; Finance Stock Comparison</div>
       <div style="opacity:.9">By <b>{AUTHOR}</b> &nbsp;·&nbsp; <b>Developed for CPS*5745</b></div>
